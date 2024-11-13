@@ -1,0 +1,108 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: 2s linear;
+}
+.container{
+    background: linear-gradient(45deg, blueviolet,lightgreen);
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+.container .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color: white;
+    text-shadow: 0 5px 10px rgba(red, green, blue, alpha);
+}
+.container .box-contener{
+    display: grid;
+    grid-template-columns: minmax(270px);
+    gap: 15px;
+}
+.container .box-contener .box{
+    box-shadow: 0 5px 10px rgba(red, green, blue, alpha);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding: 30px 20px;
+ 
+}
+.container .box-contener .box img{
+    height: 80px;
+}
+.container .box-contener .box h3{
+    color: #444;
+    font-size: 22px;
+    padding: 10px 0px;
+}
+.container .box-contener .box p{
+    color:#777;
+    font-size: 15pxpx;
+   line-height: 1.8;
+}
+.container .box-contener .box .btn{
+    margin-top: 10px;
+    text-decoration: none;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+@media screen and  (max-width:767px) {
+    .container{
+        background: linear-gradient(45deg, blueviolet,lightgreen);
+        padding: 15px 9%;
+        padding-bottom: 100px;
+    }
+    .container .heading{
+        text-align: center;
+        padding-bottom: 15px;
+        color: white;
+        text-shadow: 0 5px 10px rgba(red, green, blue, alpha);
+    }
+    .container .box-contener{
+        display: grid;
+        grid-template-columns: minmax(270px);
+        gap: 15px;
+        width: 100%;
+        height: 200px;
+    }
+    .container .box-contener .box{
+        box-shadow: 0 5px 10px rgba(red, green, blue, alpha);
+        border-radius: 5px;
+        background: #fff;
+        text-align: center;
+        padding: 30px 20px;
+     
+    }
+    .container .box-contener .box img{
+        height: 80px;
+    }
+    .container .box-contener .box h3{
+        color: #444;
+        font-size: 22px;
+        padding: 10px 0px;
+    }
+    .container .box-contener .box p{
+        color:#777;
+        font-size: 15pxpx;
+       line-height: 1.8;
+    }
+    .container .box-contener .box .btn{
+        margin-top: 10px;
+        text-decoration: none;
+        display: inline-block;
+        background: #333;
+        color: #fff;
+        font-size: 17px;
+        border-radius: 5px;
+        padding: 8px 25px;
+    }
+}
